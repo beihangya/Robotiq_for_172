@@ -1,0 +1,878 @@
+********Program started at 2026-08-27 13:32:38
+********27 Aug 05:32:39 - [info] 
+
+Welcome to Node-RED
+===================
+
+27 Aug 05:32:39 - [info] Node-RED version: v4.1.0
+27 Aug 05:32:39 - [info] Node.js  version: v22.19.0
+27 Aug 05:32:39 - [info] Linux 6.1.146-rt53+ x64 LE
+27 Aug 05:32:39 - [info] Loading palette nodes
+27 Aug 05:32:41 - [info] Settings file  : /usr/etc/jkzuc/configs/JAKA/AddOns/JODELL_Gripper_for_V3/settings.js
+27 Aug 05:32:41 - [info] Context store  : 'default' [module=memory]
+27 Aug 05:32:41 - [info] User directory : /usr/etc/jkzuc/configs/JAKA/AddOns/JODELL_Gripper_for_V3
+27 Aug 05:32:41 - [warn] Projects disabled : editorTheme.projects.enabled=false
+27 Aug 05:32:41 - [info] Flows file     : /usr/etc/jkzuc/configs/JAKA/AddOns/JODELL_Gripper_for_V3/addon.json
+27 Aug 05:32:41 - [info] Server now running at http://127.0.0.1:10050/
+27 Aug 05:32:41 - [warn] 
+
+---------------------------------------------------------------------
+Your flow credentials file is encrypted using a system-generated key.
+
+If the system-generated key is lost for any reason, your credentials
+file will not be recoverable, you will have to delete it and re-enter
+your credentials.
+
+You should set your own key using the 'credentialSecret' option in
+your settings file. Node-RED will then re-encrypt your credentials
+file using your chosen key the next time you deploy a change.
+---------------------------------------------------------------------
+
+27 Aug 05:32:41 - [info] Starting flows
+27 Aug 05:32:42 - [info] Vue UI - Version 1.6.29 started at /5c0b1360be1979c8
+27 Aug 05:32:42 - [info] Vue UI - Version 1.6.29 started at /9882cc42285fcf1f
+27 Aug 05:32:42 - [info] Vue UI - Version 1.6.29 started at /e37ceb0940365ebe
+27 Aug 05:32:42 - [info] Started flows
+27 Aug 05:32:42 - [info] [tcp in:Gripper Socket Server] listening on port 10089
+27 Aug 05:32:42 - [warn] [function:设置modbud类型全局变量] cab
+27 Aug 05:33:58 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:33:58 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:33:58 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:33:58 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:33:58 - [info] [Get-RobotInfo:0x07D1] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:33:58 - [info] [Get-RobotInfo:0x07D1] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:33:58 - [info] [Get-RobotInfo:0x07D1] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:33:58 - [info] [Get-RobotInfo:0x07D1] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:33:58 - [info] [function:Pos & Spare] 65280
+27 Aug 05:33:58 - [info] [function:Pos & Spare] 255
+27 Aug 05:33:58 - [info] [function:Pos & Spare] 0
+27 Aug 05:33:58 - [info] [Get-RobotInfo:0x03EA] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:33:58 - [info] [Get-RobotInfo:0x03EA] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:33:58 - [info] [Get-RobotInfo:0x03EA] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:33:58 - [info] [Get-RobotInfo:0x03EA] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:33:58 - [info] [function:Speed & Force] 0
+27 Aug 05:33:58 - [info] [function:Speed & Force] 0
+27 Aug 05:33:58 - [info] [function:Speed & Force] 0
+27 Aug 05:33:59 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] resolve module: name="jodell_cab", fallbackSubmod=undefined
+27 Aug 05:33:59 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] resolve module: name="jodell_cab", fallbackSubmod=undefined
+27 Aug 05:33:59 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] resolve module: name="jodell_cab", fallbackSubmod=undefined
+27 Aug 05:33:59 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] REST extioconfig: []
+27 Aug 05:33:59 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] REST extioconfig: []
+27 Aug 05:33:59 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] REST extioconfig: []
+27 Aug 05:33:59 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] brief extioinfo: {"modname":[],"submod":[]}
+27 Aug 05:33:59 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] brief extioinfo: {"modname":[],"submod":[]}
+27 Aug 05:33:59 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] brief extioinfo: {"modname":[],"submod":[]}
+27 Aug 05:33:59 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] grpc GETIOCONFIGINFO: [{"name":"jodell_cab","submod":62943}]
+27 Aug 05:33:59 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] resolved module from grpc GETIOCONFIGINFO: submod=62943
+27 Aug 05:33:59 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] final request: {"moduleName":"jodell_cab","resolvedSubmod":62943,"request":{"reqtype":"MSGID_SETAOUT","aout":{"type":2,"index":0,"value":9,"submod":62943}}}
+27 Aug 05:33:59 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] grpc GETIOCONFIGINFO: [{"name":"jodell_cab","submod":62943}]
+27 Aug 05:33:59 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] resolved module from grpc GETIOCONFIGINFO: submod=62943
+27 Aug 05:33:59 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] final request: {"moduleName":"jodell_cab","resolvedSubmod":62943,"request":{"reqtype":"MSGID_SETAOUT","aout":{"type":2,"index":1,"value":65280,"submod":62943}}}
+27 Aug 05:33:59 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] grpc GETIOCONFIGINFO: [{"name":"jodell_cab","submod":62943}]
+27 Aug 05:33:59 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] resolved module from grpc GETIOCONFIGINFO: submod=62943
+27 Aug 05:33:59 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] final request: {"moduleName":"jodell_cab","resolvedSubmod":62943,"request":{"reqtype":"MSGID_SETAOUT","aout":{"type":2,"index":2,"value":0,"submod":62943}}}
+27 Aug 05:33:59 - [error] [http response:6f490308670d3f83] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+27 Aug 05:33:59 - [error] [http response:6f490308670d3f83] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+27 Aug 05:34:02 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] resolve module: name="jodell_cab", fallbackSubmod=undefined
+27 Aug 05:34:02 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] resolve module: name="jodell_cab", fallbackSubmod=undefined
+27 Aug 05:34:02 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] resolve module: name="jodell_cab", fallbackSubmod=undefined
+27 Aug 05:34:02 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] REST extioconfig: []
+27 Aug 05:34:02 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] REST extioconfig: []
+27 Aug 05:34:02 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] REST extioconfig: []
+27 Aug 05:34:02 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] brief extioinfo: {"modname":[],"submod":[]}
+27 Aug 05:34:02 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] brief extioinfo: {"modname":[],"submod":[]}
+27 Aug 05:34:02 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] brief extioinfo: {"modname":[],"submod":[]}
+27 Aug 05:34:02 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] grpc GETIOCONFIGINFO: [{"name":"jodell_cab","submod":62943}]
+27 Aug 05:34:02 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] resolved module from grpc GETIOCONFIGINFO: submod=62943
+27 Aug 05:34:02 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] final request: {"moduleName":"jodell_cab","resolvedSubmod":62943,"request":{"reqtype":"MSGID_SETAOUT","aout":{"type":2,"index":0,"value":9,"submod":62943}}}
+27 Aug 05:34:02 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] grpc GETIOCONFIGINFO: [{"name":"jodell_cab","submod":62943}]
+27 Aug 05:34:02 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] resolved module from grpc GETIOCONFIGINFO: submod=62943
+27 Aug 05:34:02 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] final request: {"moduleName":"jodell_cab","resolvedSubmod":62943,"request":{"reqtype":"MSGID_SETAOUT","aout":{"type":2,"index":1,"value":65024,"submod":62943}}}
+27 Aug 05:34:02 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] grpc GETIOCONFIGINFO: [{"name":"jodell_cab","submod":62943}]
+27 Aug 05:34:02 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] resolved module from grpc GETIOCONFIGINFO: submod=62943
+27 Aug 05:34:02 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] final request: {"moduleName":"jodell_cab","resolvedSubmod":62943,"request":{"reqtype":"MSGID_SETAOUT","aout":{"type":2,"index":2,"value":257,"submod":62943}}}
+27 Aug 05:34:02 - [error] [http response:6f490308670d3f83] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+27 Aug 05:34:02 - [error] [http response:6f490308670d3f83] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+27 Aug 05:34:02 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] resolve module: name="jodell_cab", fallbackSubmod=undefined
+27 Aug 05:34:02 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] resolve module: name="jodell_cab", fallbackSubmod=undefined
+27 Aug 05:34:02 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] resolve module: name="jodell_cab", fallbackSubmod=undefined
+27 Aug 05:34:02 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] REST extioconfig: []
+27 Aug 05:34:02 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] REST extioconfig: []
+27 Aug 05:34:02 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] REST extioconfig: []
+27 Aug 05:34:02 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] brief extioinfo: {"modname":[],"submod":[]}
+27 Aug 05:34:02 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] brief extioinfo: {"modname":[],"submod":[]}
+27 Aug 05:34:02 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] brief extioinfo: {"modname":[],"submod":[]}
+27 Aug 05:34:03 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] grpc GETIOCONFIGINFO: [{"name":"jodell_cab","submod":62943}]
+27 Aug 05:34:03 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] resolved module from grpc GETIOCONFIGINFO: submod=62943
+27 Aug 05:34:03 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] final request: {"moduleName":"jodell_cab","resolvedSubmod":62943,"request":{"reqtype":"MSGID_SETAOUT","aout":{"type":2,"index":1,"value":64768,"submod":62943}}}
+27 Aug 05:34:03 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] grpc GETIOCONFIGINFO: [{"name":"jodell_cab","submod":62943}]
+27 Aug 05:34:03 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] resolved module from grpc GETIOCONFIGINFO: submod=62943
+27 Aug 05:34:03 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] final request: {"moduleName":"jodell_cab","resolvedSubmod":62943,"request":{"reqtype":"MSGID_SETAOUT","aout":{"type":2,"index":0,"value":9,"submod":62943}}}
+27 Aug 05:34:03 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] grpc GETIOCONFIGINFO: [{"name":"jodell_cab","submod":62943}]
+27 Aug 05:34:03 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] resolved module from grpc GETIOCONFIGINFO: submod=62943
+27 Aug 05:34:03 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] final request: {"moduleName":"jodell_cab","resolvedSubmod":62943,"request":{"reqtype":"MSGID_SETAOUT","aout":{"type":2,"index":2,"value":257,"submod":62943}}}
+27 Aug 05:34:03 - [error] [http response:6f490308670d3f83] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+27 Aug 05:34:03 - [error] [http response:6f490308670d3f83] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+27 Aug 05:34:04 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] resolve module: name="jodell_cab", fallbackSubmod=undefined
+27 Aug 05:34:04 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] resolve module: name="jodell_cab", fallbackSubmod=undefined
+27 Aug 05:34:04 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] resolve module: name="jodell_cab", fallbackSubmod=undefined
+27 Aug 05:34:04 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] REST extioconfig: []
+27 Aug 05:34:04 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] REST extioconfig: []
+27 Aug 05:34:04 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] REST extioconfig: []
+27 Aug 05:34:04 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] brief extioinfo: {"modname":[],"submod":[]}
+27 Aug 05:34:04 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] brief extioinfo: {"modname":[],"submod":[]}
+27 Aug 05:34:04 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] brief extioinfo: {"modname":[],"submod":[]}
+27 Aug 05:34:04 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] grpc GETIOCONFIGINFO: [{"name":"jodell_cab","submod":62943}]
+27 Aug 05:34:04 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] resolved module from grpc GETIOCONFIGINFO: submod=62943
+27 Aug 05:34:04 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] final request: {"moduleName":"jodell_cab","resolvedSubmod":62943,"request":{"reqtype":"MSGID_SETAOUT","aout":{"type":2,"index":0,"value":9,"submod":62943}}}
+27 Aug 05:34:04 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] grpc GETIOCONFIGINFO: [{"name":"jodell_cab","submod":62943}]
+27 Aug 05:34:04 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] resolved module from grpc GETIOCONFIGINFO: submod=62943
+27 Aug 05:34:04 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] final request: {"moduleName":"jodell_cab","resolvedSubmod":62943,"request":{"reqtype":"MSGID_SETAOUT","aout":{"type":2,"index":1,"value":256,"submod":62943}}}
+27 Aug 05:34:04 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] grpc GETIOCONFIGINFO: [{"name":"jodell_cab","submod":62943}]
+27 Aug 05:34:04 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] resolved module from grpc GETIOCONFIGINFO: submod=62943
+27 Aug 05:34:04 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] final request: {"moduleName":"jodell_cab","resolvedSubmod":62943,"request":{"reqtype":"MSGID_SETAOUT","aout":{"type":2,"index":2,"value":257,"submod":62943}}}
+27 Aug 05:34:04 - [error] [http response:6f490308670d3f83] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+27 Aug 05:34:04 - [error] [http response:6f490308670d3f83] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+27 Aug 05:34:04 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] resolve module: name="jodell_cab", fallbackSubmod=undefined
+27 Aug 05:34:04 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] resolve module: name="jodell_cab", fallbackSubmod=undefined
+27 Aug 05:34:04 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] resolve module: name="jodell_cab", fallbackSubmod=undefined
+27 Aug 05:34:04 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] REST extioconfig: []
+27 Aug 05:34:04 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] REST extioconfig: []
+27 Aug 05:34:04 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] REST extioconfig: []
+27 Aug 05:34:05 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] brief extioinfo: {"modname":[],"submod":[]}
+27 Aug 05:34:05 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] brief extioinfo: {"modname":[],"submod":[]}
+27 Aug 05:34:05 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] brief extioinfo: {"modname":[],"submod":[]}
+27 Aug 05:34:05 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] resolve module: name="jodell_cab", fallbackSubmod=undefined
+27 Aug 05:34:05 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] resolve module: name="jodell_cab", fallbackSubmod=undefined
+27 Aug 05:34:05 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] resolve module: name="jodell_cab", fallbackSubmod=undefined
+27 Aug 05:34:05 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] REST extioconfig: []
+27 Aug 05:34:05 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] REST extioconfig: []
+27 Aug 05:34:05 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] grpc GETIOCONFIGINFO: [{"name":"jodell_cab","submod":62943}]
+27 Aug 05:34:05 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] resolved module from grpc GETIOCONFIGINFO: submod=62943
+27 Aug 05:34:05 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] final request: {"moduleName":"jodell_cab","resolvedSubmod":62943,"request":{"reqtype":"MSGID_SETAOUT","aout":{"type":2,"index":2,"value":257,"submod":62943}}}
+27 Aug 05:34:05 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] REST extioconfig: []
+27 Aug 05:34:05 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] grpc GETIOCONFIGINFO: [{"name":"jodell_cab","submod":62943}]
+27 Aug 05:34:05 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] resolved module from grpc GETIOCONFIGINFO: submod=62943
+27 Aug 05:34:05 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] final request: {"moduleName":"jodell_cab","resolvedSubmod":62943,"request":{"reqtype":"MSGID_SETAOUT","aout":{"type":2,"index":0,"value":9,"submod":62943}}}
+27 Aug 05:34:05 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] grpc GETIOCONFIGINFO: [{"name":"jodell_cab","submod":62943}]
+27 Aug 05:34:05 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] resolved module from grpc GETIOCONFIGINFO: submod=62943
+27 Aug 05:34:05 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] final request: {"moduleName":"jodell_cab","resolvedSubmod":62943,"request":{"reqtype":"MSGID_SETAOUT","aout":{"type":2,"index":1,"value":20736,"submod":62943}}}
+27 Aug 05:34:05 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] brief extioinfo: {"modname":[],"submod":[]}
+27 Aug 05:34:05 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] brief extioinfo: {"modname":[],"submod":[]}
+27 Aug 05:34:05 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] brief extioinfo: {"modname":[],"submod":[]}
+27 Aug 05:34:05 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] grpc GETIOCONFIGINFO: [{"name":"jodell_cab","submod":62943}]
+27 Aug 05:34:05 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] resolved module from grpc GETIOCONFIGINFO: submod=62943
+27 Aug 05:34:05 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] final request: {"moduleName":"jodell_cab","resolvedSubmod":62943,"request":{"reqtype":"MSGID_SETAOUT","aout":{"type":2,"index":0,"value":9,"submod":62943}}}
+27 Aug 05:34:05 - [error] [http response:6f490308670d3f83] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+27 Aug 05:34:05 - [error] [http response:6f490308670d3f83] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+27 Aug 05:34:05 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] grpc GETIOCONFIGINFO: [{"name":"jodell_cab","submod":62943}]
+27 Aug 05:34:05 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] resolved module from grpc GETIOCONFIGINFO: submod=62943
+27 Aug 05:34:05 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] final request: {"moduleName":"jodell_cab","resolvedSubmod":62943,"request":{"reqtype":"MSGID_SETAOUT","aout":{"type":2,"index":1,"value":20736,"submod":62943}}}
+27 Aug 05:34:05 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] grpc GETIOCONFIGINFO: [{"name":"jodell_cab","submod":62943}]
+27 Aug 05:34:05 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] resolved module from grpc GETIOCONFIGINFO: submod=62943
+27 Aug 05:34:05 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] final request: {"moduleName":"jodell_cab","resolvedSubmod":62943,"request":{"reqtype":"MSGID_SETAOUT","aout":{"type":2,"index":2,"value":257,"submod":62943}}}
+27 Aug 05:34:05 - [error] [http response:6f490308670d3f83] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+27 Aug 05:34:05 - [error] [http response:6f490308670d3f83] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+27 Aug 05:34:06 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] resolve module: name="jodell_cab", fallbackSubmod=undefined
+27 Aug 05:34:06 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] resolve module: name="jodell_cab", fallbackSubmod=undefined
+27 Aug 05:34:06 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] resolve module: name="jodell_cab", fallbackSubmod=undefined
+27 Aug 05:34:06 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] REST extioconfig: []
+27 Aug 05:34:06 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] REST extioconfig: []
+27 Aug 05:34:06 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] REST extioconfig: []
+27 Aug 05:34:06 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] brief extioinfo: {"modname":[],"submod":[]}
+27 Aug 05:34:06 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] brief extioinfo: {"modname":[],"submod":[]}
+27 Aug 05:34:06 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] brief extioinfo: {"modname":[],"submod":[]}
+27 Aug 05:34:06 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] grpc GETIOCONFIGINFO: [{"name":"jodell_cab","submod":62943}]
+27 Aug 05:34:06 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] resolved module from grpc GETIOCONFIGINFO: submod=62943
+27 Aug 05:34:06 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] final request: {"moduleName":"jodell_cab","resolvedSubmod":62943,"request":{"reqtype":"MSGID_SETAOUT","aout":{"type":2,"index":0,"value":9,"submod":62943}}}
+27 Aug 05:34:06 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] grpc GETIOCONFIGINFO: [{"name":"jodell_cab","submod":62943}]
+27 Aug 05:34:06 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] resolved module from grpc GETIOCONFIGINFO: submod=62943
+27 Aug 05:34:06 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] final request: {"moduleName":"jodell_cab","resolvedSubmod":62943,"request":{"reqtype":"MSGID_SETAOUT","aout":{"type":2,"index":2,"value":257,"submod":62943}}}
+27 Aug 05:34:06 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] grpc GETIOCONFIGINFO: [{"name":"jodell_cab","submod":62943}]
+27 Aug 05:34:06 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] resolved module from grpc GETIOCONFIGINFO: submod=62943
+27 Aug 05:34:06 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] final request: {"moduleName":"jodell_cab","resolvedSubmod":62943,"request":{"reqtype":"MSGID_SETAOUT","aout":{"type":2,"index":1,"value":256,"submod":62943}}}
+27 Aug 05:34:06 - [error] [http response:6f490308670d3f83] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+27 Aug 05:34:06 - [error] [http response:6f490308670d3f83] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+27 Aug 05:34:11 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] resolve module: name="jodell_cab", fallbackSubmod=undefined
+27 Aug 05:34:11 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] resolve module: name="jodell_cab", fallbackSubmod=undefined
+27 Aug 05:34:11 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] resolve module: name="jodell_cab", fallbackSubmod=undefined
+27 Aug 05:34:11 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] REST extioconfig: []
+27 Aug 05:34:11 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] REST extioconfig: []
+27 Aug 05:34:11 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] REST extioconfig: []
+27 Aug 05:34:11 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] brief extioinfo: {"modname":[],"submod":[]}
+27 Aug 05:34:11 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] brief extioinfo: {"modname":[],"submod":[]}
+27 Aug 05:34:11 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] brief extioinfo: {"modname":[],"submod":[]}
+27 Aug 05:34:11 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] grpc GETIOCONFIGINFO: [{"name":"jodell_cab","submod":62943}]
+27 Aug 05:34:11 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] resolved module from grpc GETIOCONFIGINFO: submod=62943
+27 Aug 05:34:11 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] final request: {"moduleName":"jodell_cab","resolvedSubmod":62943,"request":{"reqtype":"MSGID_SETAOUT","aout":{"type":2,"index":0,"value":9,"submod":62943}}}
+27 Aug 05:34:11 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] grpc GETIOCONFIGINFO: [{"name":"jodell_cab","submod":62943}]
+27 Aug 05:34:11 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] resolved module from grpc GETIOCONFIGINFO: submod=62943
+27 Aug 05:34:11 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] final request: {"moduleName":"jodell_cab","resolvedSubmod":62943,"request":{"reqtype":"MSGID_SETAOUT","aout":{"type":2,"index":1,"value":65280,"submod":62943}}}
+27 Aug 05:34:11 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] grpc GETIOCONFIGINFO: [{"name":"jodell_cab","submod":62943}]
+27 Aug 05:34:11 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] resolved module from grpc GETIOCONFIGINFO: submod=62943
+27 Aug 05:34:11 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] final request: {"moduleName":"jodell_cab","resolvedSubmod":62943,"request":{"reqtype":"MSGID_SETAOUT","aout":{"type":2,"index":2,"value":29552,"submod":62943}}}
+27 Aug 05:34:11 - [error] [http response:6f490308670d3f83] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+27 Aug 05:34:11 - [error] [http response:6f490308670d3f83] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+27 Aug 05:34:12 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] resolve module: name="jodell_cab", fallbackSubmod=undefined
+27 Aug 05:34:12 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] resolve module: name="jodell_cab", fallbackSubmod=undefined
+27 Aug 05:34:12 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] resolve module: name="jodell_cab", fallbackSubmod=undefined
+27 Aug 05:34:12 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] REST extioconfig: []
+27 Aug 05:34:12 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] REST extioconfig: []
+27 Aug 05:34:12 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] REST extioconfig: []
+27 Aug 05:34:12 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] brief extioinfo: {"modname":[],"submod":[]}
+27 Aug 05:34:12 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] brief extioinfo: {"modname":[],"submod":[]}
+27 Aug 05:34:12 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] brief extioinfo: {"modname":[],"submod":[]}
+27 Aug 05:34:12 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] grpc GETIOCONFIGINFO: [{"name":"jodell_cab","submod":62943}]
+27 Aug 05:34:12 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] resolved module from grpc GETIOCONFIGINFO: submod=62943
+27 Aug 05:34:12 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] final request: {"moduleName":"jodell_cab","resolvedSubmod":62943,"request":{"reqtype":"MSGID_SETAOUT","aout":{"type":2,"index":1,"value":256,"submod":62943}}}
+27 Aug 05:34:12 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] grpc GETIOCONFIGINFO: [{"name":"jodell_cab","submod":62943}]
+27 Aug 05:34:12 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] resolved module from grpc GETIOCONFIGINFO: submod=62943
+27 Aug 05:34:12 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] final request: {"moduleName":"jodell_cab","resolvedSubmod":62943,"request":{"reqtype":"MSGID_SETAOUT","aout":{"type":2,"index":0,"value":9,"submod":62943}}}
+27 Aug 05:34:13 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] grpc GETIOCONFIGINFO: [{"name":"jodell_cab","submod":62943}]
+27 Aug 05:34:13 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] resolved module from grpc GETIOCONFIGINFO: submod=62943
+27 Aug 05:34:13 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] final request: {"moduleName":"jodell_cab","resolvedSubmod":62943,"request":{"reqtype":"MSGID_SETAOUT","aout":{"type":2,"index":2,"value":29552,"submod":62943}}}
+27 Aug 05:34:13 - [error] [http response:6f490308670d3f83] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+27 Aug 05:34:13 - [error] [http response:6f490308670d3f83] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+27 Aug 05:34:13 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] resolve module: name="jodell_cab", fallbackSubmod=undefined
+27 Aug 05:34:13 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] resolve module: name="jodell_cab", fallbackSubmod=undefined
+27 Aug 05:34:13 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] resolve module: name="jodell_cab", fallbackSubmod=undefined
+27 Aug 05:34:13 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] REST extioconfig: []
+27 Aug 05:34:13 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] REST extioconfig: []
+27 Aug 05:34:13 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] REST extioconfig: []
+27 Aug 05:34:13 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] brief extioinfo: {"modname":[],"submod":[]}
+27 Aug 05:34:13 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] brief extioinfo: {"modname":[],"submod":[]}
+27 Aug 05:34:13 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] brief extioinfo: {"modname":[],"submod":[]}
+27 Aug 05:34:13 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] grpc GETIOCONFIGINFO: [{"name":"jodell_cab","submod":62943}]
+27 Aug 05:34:13 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] resolved module from grpc GETIOCONFIGINFO: submod=62943
+27 Aug 05:34:13 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] final request: {"moduleName":"jodell_cab","resolvedSubmod":62943,"request":{"reqtype":"MSGID_SETAOUT","aout":{"type":2,"index":0,"value":9,"submod":62943}}}
+27 Aug 05:34:13 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] grpc GETIOCONFIGINFO: [{"name":"jodell_cab","submod":62943}]
+27 Aug 05:34:13 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] resolved module from grpc GETIOCONFIGINFO: submod=62943
+27 Aug 05:34:13 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] final request: {"moduleName":"jodell_cab","resolvedSubmod":62943,"request":{"reqtype":"MSGID_SETAOUT","aout":{"type":2,"index":1,"value":256,"submod":62943}}}
+27 Aug 05:34:13 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] grpc GETIOCONFIGINFO: [{"name":"jodell_cab","submod":62943}]
+27 Aug 05:34:13 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] resolved module from grpc GETIOCONFIGINFO: submod=62943
+27 Aug 05:34:13 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] final request: {"moduleName":"jodell_cab","resolvedSubmod":62943,"request":{"reqtype":"MSGID_SETAOUT","aout":{"type":2,"index":2,"value":29552,"submod":62943}}}
+27 Aug 05:34:13 - [error] [http response:6f490308670d3f83] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+27 Aug 05:34:13 - [error] [http response:6f490308670d3f83] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+27 Aug 05:34:21 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] resolve module: name="jodell_cab", fallbackSubmod=undefined
+27 Aug 05:34:21 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] resolve module: name="jodell_cab", fallbackSubmod=undefined
+27 Aug 05:34:21 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] resolve module: name="jodell_cab", fallbackSubmod=undefined
+27 Aug 05:34:21 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] REST extioconfig: []
+27 Aug 05:34:21 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] REST extioconfig: []
+27 Aug 05:34:21 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] REST extioconfig: []
+27 Aug 05:34:21 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] brief extioinfo: {"modname":[],"submod":[]}
+27 Aug 05:34:21 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] brief extioinfo: {"modname":[],"submod":[]}
+27 Aug 05:34:21 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] brief extioinfo: {"modname":[],"submod":[]}
+27 Aug 05:34:21 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] grpc GETIOCONFIGINFO: [{"name":"jodell_cab","submod":62943}]
+27 Aug 05:34:21 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] resolved module from grpc GETIOCONFIGINFO: submod=62943
+27 Aug 05:34:21 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] final request: {"moduleName":"jodell_cab","resolvedSubmod":62943,"request":{"reqtype":"MSGID_SETAOUT","aout":{"type":2,"index":1,"value":65280,"submod":62943}}}
+27 Aug 05:34:21 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] grpc GETIOCONFIGINFO: [{"name":"jodell_cab","submod":62943}]
+27 Aug 05:34:21 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] resolved module from grpc GETIOCONFIGINFO: submod=62943
+27 Aug 05:34:21 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] final request: {"moduleName":"jodell_cab","resolvedSubmod":62943,"request":{"reqtype":"MSGID_SETAOUT","aout":{"type":2,"index":0,"value":9,"submod":62943}}}
+27 Aug 05:34:21 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] grpc GETIOCONFIGINFO: [{"name":"jodell_cab","submod":62943}]
+27 Aug 05:34:21 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] resolved module from grpc GETIOCONFIGINFO: submod=62943
+27 Aug 05:34:21 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] final request: {"moduleName":"jodell_cab","resolvedSubmod":62943,"request":{"reqtype":"MSGID_SETAOUT","aout":{"type":2,"index":2,"value":65535,"submod":62943}}}
+27 Aug 05:34:21 - [error] [http response:6f490308670d3f83] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+27 Aug 05:34:21 - [error] [http response:6f490308670d3f83] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+27 Aug 05:34:23 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] resolve module: name="jodell_cab", fallbackSubmod=undefined
+27 Aug 05:34:23 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] resolve module: name="jodell_cab", fallbackSubmod=undefined
+27 Aug 05:34:23 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] resolve module: name="jodell_cab", fallbackSubmod=undefined
+27 Aug 05:34:23 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] REST extioconfig: []
+27 Aug 05:34:23 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] REST extioconfig: []
+27 Aug 05:34:23 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] REST extioconfig: []
+27 Aug 05:34:23 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] brief extioinfo: {"modname":[],"submod":[]}
+27 Aug 05:34:23 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] brief extioinfo: {"modname":[],"submod":[]}
+27 Aug 05:34:23 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] brief extioinfo: {"modname":[],"submod":[]}
+27 Aug 05:34:23 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] grpc GETIOCONFIGINFO: [{"name":"jodell_cab","submod":62943}]
+27 Aug 05:34:23 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] resolved module from grpc GETIOCONFIGINFO: submod=62943
+27 Aug 05:34:23 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] final request: {"moduleName":"jodell_cab","resolvedSubmod":62943,"request":{"reqtype":"MSGID_SETAOUT","aout":{"type":2,"index":0,"value":9,"submod":62943}}}
+27 Aug 05:34:23 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] grpc GETIOCONFIGINFO: [{"name":"jodell_cab","submod":62943}]
+27 Aug 05:34:23 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] resolved module from grpc GETIOCONFIGINFO: submod=62943
+27 Aug 05:34:23 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] final request: {"moduleName":"jodell_cab","resolvedSubmod":62943,"request":{"reqtype":"MSGID_SETAOUT","aout":{"type":2,"index":2,"value":65535,"submod":62943}}}
+27 Aug 05:34:23 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] grpc GETIOCONFIGINFO: [{"name":"jodell_cab","submod":62943}]
+27 Aug 05:34:23 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] resolved module from grpc GETIOCONFIGINFO: submod=62943
+27 Aug 05:34:23 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] final request: {"moduleName":"jodell_cab","resolvedSubmod":62943,"request":{"reqtype":"MSGID_SETAOUT","aout":{"type":2,"index":1,"value":256,"submod":62943}}}
+27 Aug 05:34:23 - [error] [http response:6f490308670d3f83] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+27 Aug 05:34:23 - [error] [http response:6f490308670d3f83] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+27 Aug 05:34:31 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:34:31 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:34:31 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:34:31 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:34:31 - [info] [Get-RobotInfo:0x07D1] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:34:31 - [info] [Get-RobotInfo:0x07D1] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:34:31 - [info] [Get-RobotInfo:0x07D1] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:34:31 - [info] [Get-RobotInfo:0x07D1] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:34:31 - [info] [function:Pos & Spare] 256
+27 Aug 05:34:31 - [info] [function:Pos & Spare] 1
+27 Aug 05:34:31 - [info] [function:Pos & Spare] 0
+27 Aug 05:34:31 - [info] [Get-RobotInfo:0x03EA] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:34:31 - [info] [Get-RobotInfo:0x03EA] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:34:31 - [info] [Get-RobotInfo:0x03EA] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:34:31 - [info] [Get-RobotInfo:0x03EA] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:34:31 - [info] [function:Speed & Force] 65535
+27 Aug 05:34:31 - [info] [function:Speed & Force] 255
+27 Aug 05:34:31 - [info] [function:Speed & Force] 255
+27 Aug 05:34:40 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:34:40 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:34:40 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:34:40 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:34:40 - [info] [Get-RobotInfo:0x07D1] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:34:40 - [info] [Get-RobotInfo:0x07D1] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:34:40 - [info] [Get-RobotInfo:0x07D1] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:34:40 - [info] [Get-RobotInfo:0x07D1] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:34:40 - [info] [function:Pos & Spare] 256
+27 Aug 05:34:40 - [info] [function:Pos & Spare] 1
+27 Aug 05:34:40 - [info] [function:Pos & Spare] 0
+27 Aug 05:34:40 - [info] [Get-RobotInfo:0x03EA] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:34:40 - [info] [Get-RobotInfo:0x03EA] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:34:40 - [info] [Get-RobotInfo:0x03EA] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:34:40 - [info] [Get-RobotInfo:0x03EA] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:34:40 - [info] [function:Speed & Force] 65535
+27 Aug 05:34:40 - [info] [function:Speed & Force] 255
+27 Aug 05:34:40 - [info] [function:Speed & Force] 255
+27 Aug 05:35:01 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] resolve module: name="jodell_cab", fallbackSubmod=undefined
+27 Aug 05:35:01 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] REST extioconfig: []
+27 Aug 05:35:01 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] brief extioinfo: {"modname":[],"submod":[]}
+27 Aug 05:35:01 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] grpc GETIOCONFIGINFO: [{"name":"jodell_cab","submod":62943}]
+27 Aug 05:35:01 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] resolved module from grpc GETIOCONFIGINFO: submod=62943
+27 Aug 05:35:01 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] final request: {"moduleName":"jodell_cab","resolvedSubmod":62943,"request":{"reqtype":"MSGID_SETAOUT","aout":{"type":2,"index":0,"value":0,"submod":62943}}}
+27 Aug 05:35:01 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] resolve module: name="pc_3", fallbackSubmod=undefined
+27 Aug 05:35:01 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] REST extioconfig: []
+27 Aug 05:35:01 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] brief extioinfo: {"modname":[],"submod":[]}
+27 Aug 05:35:02 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] grpc GETIOCONFIGINFO: [{"name":"jodell_cab","submod":62943}]
+27 Aug 05:35:02 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] heartbeat mbextio_state: [62943]
+27 Aug 05:35:02 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] resolved module from heartbeat: name="pc_3", submod=62943
+27 Aug 05:35:02 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] final request: {"moduleName":"pc_3","resolvedSubmod":62943,"request":{"reqtype":"MSGID_SETAOUT","aout":{"type":2,"index":0,"value":1,"submod":62943}}}
+27 Aug 05:35:02 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:02 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:02 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:02 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:02 - [warn] [function:Status & Spare] [object Object]
+27 Aug 05:35:05 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] resolve module: name="pc_3", fallbackSubmod=undefined
+27 Aug 05:35:05 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] resolve module: name="pc_3", fallbackSubmod=undefined
+27 Aug 05:35:05 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] resolve module: name="pc_3", fallbackSubmod=undefined
+27 Aug 05:35:05 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] REST extioconfig: []
+27 Aug 05:35:05 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] REST extioconfig: []
+27 Aug 05:35:05 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] REST extioconfig: []
+27 Aug 05:35:05 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] brief extioinfo: {"modname":[],"submod":[]}
+27 Aug 05:35:05 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] brief extioinfo: {"modname":[],"submod":[]}
+27 Aug 05:35:05 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] brief extioinfo: {"modname":[],"submod":[]}
+27 Aug 05:35:05 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] grpc GETIOCONFIGINFO: [{"name":"jodell_cab","submod":62943}]
+27 Aug 05:35:05 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] grpc GETIOCONFIGINFO: [{"name":"jodell_cab","submod":62943}]
+27 Aug 05:35:05 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] heartbeat mbextio_state: [62943]
+27 Aug 05:35:05 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] resolved module from heartbeat: name="pc_3", submod=62943
+27 Aug 05:35:05 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] final request: {"moduleName":"pc_3","resolvedSubmod":62943,"request":{"reqtype":"MSGID_SETAOUT","aout":{"type":2,"index":1,"value":0,"submod":62943}}}
+27 Aug 05:35:05 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] grpc GETIOCONFIGINFO: [{"name":"jodell_cab","submod":62943}]
+27 Aug 05:35:05 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] heartbeat mbextio_state: [62943]
+27 Aug 05:35:05 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] resolved module from heartbeat: name="pc_3", submod=62943
+27 Aug 05:35:05 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] final request: {"moduleName":"pc_3","resolvedSubmod":62943,"request":{"reqtype":"MSGID_SETAOUT","aout":{"type":2,"index":0,"value":9,"submod":62943}}}
+27 Aug 05:35:05 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] heartbeat mbextio_state: [62943]
+27 Aug 05:35:05 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] resolved module from heartbeat: name="pc_3", submod=62943
+27 Aug 05:35:05 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] final request: {"moduleName":"pc_3","resolvedSubmod":62943,"request":{"reqtype":"MSGID_SETAOUT","aout":{"type":2,"index":2,"value":25700,"submod":62943}}}
+27 Aug 05:35:06 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:06 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:06 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:06 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:06 - [warn] [function:Status & Spare] 57
+27 Aug 05:35:06 - [warn] [function:Status & Spare] 1
+27 Aug 05:35:06 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:06 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:06 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:06 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:06 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:06 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:06 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:06 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:06 - [warn] [function:Status & Spare] 57
+27 Aug 05:35:06 - [warn] [function:Status & Spare] 1
+27 Aug 05:35:06 - [warn] [function:Status & Spare] 57
+27 Aug 05:35:06 - [warn] [function:Status & Spare] 1
+27 Aug 05:35:06 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:06 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:06 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:06 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:06 - [warn] [function:Status & Spare] 57
+27 Aug 05:35:06 - [warn] [function:Status & Spare] 1
+27 Aug 05:35:06 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:06 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:06 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:06 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:06 - [warn] [function:Status & Spare] 57
+27 Aug 05:35:06 - [warn] [function:Status & Spare] 1
+27 Aug 05:35:06 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:06 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:06 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:06 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:06 - [warn] [function:Status & Spare] 57
+27 Aug 05:35:06 - [warn] [function:Status & Spare] 1
+27 Aug 05:35:06 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:06 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:06 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:06 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:06 - [warn] [function:Status & Spare] 57
+27 Aug 05:35:06 - [warn] [function:Status & Spare] 1
+27 Aug 05:35:06 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:06 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:06 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:06 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:06 - [warn] [function:Status & Spare] 57
+27 Aug 05:35:06 - [warn] [function:Status & Spare] 1
+27 Aug 05:35:06 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:06 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:06 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:06 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:06 - [warn] [function:Status & Spare] 57
+27 Aug 05:35:06 - [warn] [function:Status & Spare] 1
+27 Aug 05:35:06 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:06 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:06 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:06 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:06 - [warn] [function:Status & Spare] 57
+27 Aug 05:35:06 - [warn] [function:Status & Spare] 1
+27 Aug 05:35:06 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:06 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:06 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:06 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:06 - [warn] [function:Status & Spare] 57
+27 Aug 05:35:06 - [warn] [function:Status & Spare] 1
+27 Aug 05:35:06 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:06 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:06 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:06 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:06 - [warn] [function:Status & Spare] 57
+27 Aug 05:35:06 - [warn] [function:Status & Spare] 1
+27 Aug 05:35:06 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:06 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:06 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:06 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:06 - [warn] [function:Status & Spare] 57
+27 Aug 05:35:06 - [warn] [function:Status & Spare] 1
+27 Aug 05:35:06 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:06 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:06 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:06 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:06 - [warn] [function:Status & Spare] 57
+27 Aug 05:35:06 - [warn] [function:Status & Spare] 1
+27 Aug 05:35:06 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:06 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:06 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:06 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:06 - [warn] [function:Status & Spare] 57
+27 Aug 05:35:06 - [warn] [function:Status & Spare] 1
+27 Aug 05:35:06 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:06 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:06 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:06 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:06 - [warn] [function:Status & Spare] 57
+27 Aug 05:35:06 - [warn] [function:Status & Spare] 1
+27 Aug 05:35:06 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:06 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:06 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:06 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:06 - [warn] [function:Status & Spare] 57
+27 Aug 05:35:06 - [warn] [function:Status & Spare] 1
+27 Aug 05:35:06 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:06 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:06 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:06 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:06 - [warn] [function:Status & Spare] 57
+27 Aug 05:35:06 - [warn] [function:Status & Spare] 1
+27 Aug 05:35:06 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:06 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:06 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:06 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:06 - [warn] [function:Status & Spare] 57
+27 Aug 05:35:06 - [warn] [function:Status & Spare] 1
+27 Aug 05:35:06 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:06 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:06 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:06 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:06 - [warn] [function:Status & Spare] 57
+27 Aug 05:35:06 - [warn] [function:Status & Spare] 1
+27 Aug 05:35:06 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:06 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:06 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:06 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:06 - [warn] [function:Status & Spare] 57
+27 Aug 05:35:06 - [warn] [function:Status & Spare] 1
+27 Aug 05:35:06 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:06 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:06 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:06 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:06 - [warn] [function:Status & Spare] 57
+27 Aug 05:35:06 - [warn] [function:Status & Spare] 1
+27 Aug 05:35:06 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:06 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:06 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:06 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:06 - [warn] [function:Status & Spare] 57
+27 Aug 05:35:06 - [warn] [function:Status & Spare] 1
+27 Aug 05:35:06 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:06 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:06 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:06 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:07 - [warn] [function:Status & Spare] 57
+27 Aug 05:35:07 - [warn] [function:Status & Spare] 1
+27 Aug 05:35:07 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:07 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:07 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:07 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:07 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:07 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:07 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:07 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:07 - [warn] [function:Status & Spare] 57
+27 Aug 05:35:07 - [warn] [function:Status & Spare] 1
+27 Aug 05:35:07 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:07 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:07 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:07 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:07 - [warn] [function:Status & Spare] 57
+27 Aug 05:35:07 - [warn] [function:Status & Spare] 1
+27 Aug 05:35:07 - [warn] [function:Status & Spare] 57
+27 Aug 05:35:07 - [warn] [function:Status & Spare] 1
+27 Aug 05:35:07 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:07 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:07 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:07 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:07 - [warn] [function:Status & Spare] 57
+27 Aug 05:35:07 - [warn] [function:Status & Spare] 1
+27 Aug 05:35:07 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:07 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:07 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:07 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:07 - [warn] [function:Status & Spare] 57
+27 Aug 05:35:07 - [warn] [function:Status & Spare] 1
+27 Aug 05:35:07 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:07 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:07 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:07 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:07 - [warn] [function:Status & Spare] 57
+27 Aug 05:35:07 - [warn] [function:Status & Spare] 1
+27 Aug 05:35:07 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:07 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:07 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:07 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:07 - [warn] [function:Status & Spare] 57
+27 Aug 05:35:07 - [warn] [function:Status & Spare] 1
+27 Aug 05:35:07 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:07 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:07 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:07 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:07 - [warn] [function:Status & Spare] 57
+27 Aug 05:35:07 - [warn] [function:Status & Spare] 1
+27 Aug 05:35:07 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:07 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:07 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:07 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:07 - [warn] [function:Status & Spare] 57
+27 Aug 05:35:07 - [warn] [function:Status & Spare] 1
+27 Aug 05:35:07 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:07 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:07 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:07 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:07 - [warn] [function:Status & Spare] 57
+27 Aug 05:35:07 - [warn] [function:Status & Spare] 1
+27 Aug 05:35:07 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:07 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:07 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:07 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:07 - [warn] [function:Status & Spare] 57
+27 Aug 05:35:07 - [warn] [function:Status & Spare] 1
+27 Aug 05:35:07 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:07 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:07 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:07 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:07 - [warn] [function:Status & Spare] 57
+27 Aug 05:35:07 - [warn] [function:Status & Spare] 1
+27 Aug 05:35:07 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:07 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:07 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:07 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:07 - [warn] [function:Status & Spare] 57
+27 Aug 05:35:07 - [warn] [function:Status & Spare] 1
+27 Aug 05:35:07 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:07 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:07 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:07 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:07 - [warn] [function:Status & Spare] 57
+27 Aug 05:35:07 - [warn] [function:Status & Spare] 1
+27 Aug 05:35:07 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:07 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:07 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:07 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:07 - [warn] [function:Status & Spare] 241
+27 Aug 05:35:07 - [warn] [function:Status & Spare] 0
+27 Aug 05:35:07 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:07 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:07 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:07 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:07 - [warn] [function:Status & Spare] 241
+27 Aug 05:35:07 - [warn] [function:Status & Spare] 0
+27 Aug 05:35:07 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:07 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:07 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:07 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:07 - [warn] [function:Status & Spare] 241
+27 Aug 05:35:07 - [warn] [function:Status & Spare] 0
+27 Aug 05:35:08 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] resolve module: name="pc_3", fallbackSubmod=undefined
+27 Aug 05:35:08 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] resolve module: name="pc_3", fallbackSubmod=undefined
+27 Aug 05:35:08 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] resolve module: name="pc_3", fallbackSubmod=undefined
+27 Aug 05:35:08 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] REST extioconfig: []
+27 Aug 05:35:08 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] REST extioconfig: []
+27 Aug 05:35:08 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] REST extioconfig: []
+27 Aug 05:35:08 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] brief extioinfo: {"modname":[],"submod":[]}
+27 Aug 05:35:08 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] brief extioinfo: {"modname":[],"submod":[]}
+27 Aug 05:35:08 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] brief extioinfo: {"modname":[],"submod":[]}
+27 Aug 05:35:08 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] grpc GETIOCONFIGINFO: [{"name":"jodell_cab","submod":62943}]
+27 Aug 05:35:08 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] heartbeat mbextio_state: [62943]
+27 Aug 05:35:08 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] resolved module from heartbeat: name="pc_3", submod=62943
+27 Aug 05:35:08 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] final request: {"moduleName":"pc_3","resolvedSubmod":62943,"request":{"reqtype":"MSGID_SETAOUT","aout":{"type":2,"index":1,"value":65280,"submod":62943}}}
+27 Aug 05:35:08 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] grpc GETIOCONFIGINFO: [{"name":"jodell_cab","submod":62943}]
+27 Aug 05:35:09 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] grpc GETIOCONFIGINFO: [{"name":"jodell_cab","submod":62943}]
+27 Aug 05:35:09 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] heartbeat mbextio_state: [62943]
+27 Aug 05:35:09 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] resolved module from heartbeat: name="pc_3", submod=62943
+27 Aug 05:35:09 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] final request: {"moduleName":"pc_3","resolvedSubmod":62943,"request":{"reqtype":"MSGID_SETAOUT","aout":{"type":2,"index":0,"value":9,"submod":62943}}}
+27 Aug 05:35:09 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] heartbeat mbextio_state: [62943]
+27 Aug 05:35:09 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] resolved module from heartbeat: name="pc_3", submod=62943
+27 Aug 05:35:09 - [warn] [Set-RobotInfo:Jodell CAB Modbus RTU] [Set-RobotInfo] final request: {"moduleName":"pc_3","resolvedSubmod":62943,"request":{"reqtype":"MSGID_SETAOUT","aout":{"type":2,"index":2,"value":25700,"submod":62943}}}
+27 Aug 05:35:09 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:09 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:09 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:09 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:09 - [warn] [function:Status & Spare] 57
+27 Aug 05:35:09 - [warn] [function:Status & Spare] 1
+27 Aug 05:35:09 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:09 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:09 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:09 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:09 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:09 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:09 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:09 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:09 - [warn] [function:Status & Spare] 57
+27 Aug 05:35:09 - [warn] [function:Status & Spare] 1
+27 Aug 05:35:09 - [warn] [function:Status & Spare] 57
+27 Aug 05:35:09 - [warn] [function:Status & Spare] 1
+27 Aug 05:35:09 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:09 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:09 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:09 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:09 - [warn] [function:Status & Spare] 57
+27 Aug 05:35:09 - [warn] [function:Status & Spare] 1
+27 Aug 05:35:09 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:09 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:09 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:09 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:09 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:09 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:09 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:09 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:09 - [warn] [function:Status & Spare] 57
+27 Aug 05:35:09 - [warn] [function:Status & Spare] 1
+27 Aug 05:35:09 - [warn] [function:Status & Spare] 57
+27 Aug 05:35:09 - [warn] [function:Status & Spare] 1
+27 Aug 05:35:09 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:09 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:09 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:09 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:09 - [warn] [function:Status & Spare] 57
+27 Aug 05:35:09 - [warn] [function:Status & Spare] 1
+27 Aug 05:35:09 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:09 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:09 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:09 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:09 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:09 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:09 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:09 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:09 - [warn] [function:Status & Spare] 57
+27 Aug 05:35:09 - [warn] [function:Status & Spare] 1
+27 Aug 05:35:09 - [warn] [function:Status & Spare] 57
+27 Aug 05:35:09 - [warn] [function:Status & Spare] 1
+27 Aug 05:35:09 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:09 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:09 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:09 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:09 - [warn] [function:Status & Spare] 57
+27 Aug 05:35:09 - [warn] [function:Status & Spare] 1
+27 Aug 05:35:09 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:09 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:09 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:09 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:09 - [warn] [function:Status & Spare] 57
+27 Aug 05:35:09 - [warn] [function:Status & Spare] 1
+27 Aug 05:35:09 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:09 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:09 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:09 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:09 - [warn] [function:Status & Spare] 57
+27 Aug 05:35:09 - [warn] [function:Status & Spare] 1
+27 Aug 05:35:09 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:09 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:09 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:09 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:09 - [warn] [function:Status & Spare] 57
+27 Aug 05:35:09 - [warn] [function:Status & Spare] 1
+27 Aug 05:35:09 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:09 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:09 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:09 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:09 - [warn] [function:Status & Spare] 57
+27 Aug 05:35:09 - [warn] [function:Status & Spare] 1
+27 Aug 05:35:09 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:09 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:09 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:09 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:09 - [warn] [function:Status & Spare] 57
+27 Aug 05:35:09 - [warn] [function:Status & Spare] 1
+27 Aug 05:35:09 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:09 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:09 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:09 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:09 - [warn] [function:Status & Spare] 57
+27 Aug 05:35:09 - [warn] [function:Status & Spare] 1
+27 Aug 05:35:09 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:09 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:09 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:09 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:09 - [warn] [function:Status & Spare] 57
+27 Aug 05:35:09 - [warn] [function:Status & Spare] 1
+27 Aug 05:35:09 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:09 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:09 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:09 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:09 - [warn] [function:Status & Spare] 57
+27 Aug 05:35:09 - [warn] [function:Status & Spare] 1
+27 Aug 05:35:09 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:09 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:09 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:09 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:09 - [warn] [function:Status & Spare] 57
+27 Aug 05:35:09 - [warn] [function:Status & Spare] 1
+27 Aug 05:35:10 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:10 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:10 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:10 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:10 - [warn] [function:Status & Spare] 57
+27 Aug 05:35:10 - [warn] [function:Status & Spare] 1
+27 Aug 05:35:10 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:10 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:10 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:10 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:10 - [warn] [function:Status & Spare] 57
+27 Aug 05:35:10 - [warn] [function:Status & Spare] 1
+27 Aug 05:35:10 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:10 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:10 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:10 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:10 - [warn] [function:Status & Spare] 57
+27 Aug 05:35:10 - [warn] [function:Status & Spare] 1
+27 Aug 05:35:10 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:10 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:10 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:10 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:10 - [warn] [function:Status & Spare] 57
+27 Aug 05:35:10 - [warn] [function:Status & Spare] 1
+27 Aug 05:35:10 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:10 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:10 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:10 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:10 - [warn] [function:Status & Spare] 57
+27 Aug 05:35:10 - [warn] [function:Status & Spare] 1
+27 Aug 05:35:10 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:10 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:10 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:10 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:10 - [warn] [function:Status & Spare] 57
+27 Aug 05:35:10 - [warn] [function:Status & Spare] 1
+27 Aug 05:35:10 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:10 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:10 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:10 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:10 - [warn] [function:Status & Spare] 57
+27 Aug 05:35:10 - [warn] [function:Status & Spare] 1
+27 Aug 05:35:10 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:10 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:10 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:10 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:10 - [warn] [function:Status & Spare] 57
+27 Aug 05:35:10 - [warn] [function:Status & Spare] 1
+27 Aug 05:35:10 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:10 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:10 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:10 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:10 - [warn] [function:Status & Spare] 57
+27 Aug 05:35:10 - [warn] [function:Status & Spare] 1
+27 Aug 05:35:10 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:10 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:10 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:10 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:10 - [warn] [function:Status & Spare] 57
+27 Aug 05:35:10 - [warn] [function:Status & Spare] 1
+27 Aug 05:35:10 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:10 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:10 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:10 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:10 - [warn] [function:Status & Spare] 57
+27 Aug 05:35:10 - [warn] [function:Status & Spare] 1
+27 Aug 05:35:10 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:10 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:10 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:10 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:10 - [warn] [function:Status & Spare] 57
+27 Aug 05:35:10 - [warn] [function:Status & Spare] 1
+27 Aug 05:35:10 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:10 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:10 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:10 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:10 - [warn] [function:Status & Spare] 57
+27 Aug 05:35:10 - [warn] [function:Status & Spare] 1
+27 Aug 05:35:10 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:10 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:10 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:10 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:10 - [warn] [function:Status & Spare] 57
+27 Aug 05:35:10 - [warn] [function:Status & Spare] 1
+27 Aug 05:35:10 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:10 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:10 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:10 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:10 - [warn] [function:Status & Spare] 57
+27 Aug 05:35:10 - [warn] [function:Status & Spare] 1
+27 Aug 05:35:10 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:10 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:10 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:10 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:10 - [warn] [function:Status & Spare] 57
+27 Aug 05:35:10 - [warn] [function:Status & Spare] 1
+27 Aug 05:35:10 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:10 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:10 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:10 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:10 - [warn] [function:Status & Spare] 57
+27 Aug 05:35:10 - [warn] [function:Status & Spare] 1
+27 Aug 05:35:10 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:10 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:10 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:10 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:10 - [warn] [function:Status & Spare] 241
+27 Aug 05:35:10 - [warn] [function:Status & Spare] 0
+27 Aug 05:35:10 - [info] [tcp in:Gripper Socket Server] Error: read ECONNRESET
+27 Aug 05:35:10 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:10 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:10 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:10 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:10 - [warn] [function:Status & Spare] 241
+27 Aug 05:35:10 - [warn] [function:Status & Spare] 0
+27 Aug 05:35:10 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:10 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:10 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:10 - [info] [Get-RobotInfo:0x07D0] Using TOKEN: H)J+pH8D0}H!w9fV>UE0WH(|oFk>+?W;il4Gc`6dH)dfqWi?|rF*RgkVmD!BF*G+cWi>K5F)=h`VP;`D3QA8zMNCXzM{;R!aAk5|W^Zy|Rx=7|aCS60F)%JQE;TMOFfckbFgY+b3N#8^T?%D6G&y8uW;io5Wi>Q7H#cE8GcjdlG-Ne7HDoq3WHJ
+27 Aug 05:35:10 - [warn] [function:Status & Spare] 241
+27 Aug 05:35:10 - [warn] [function:Status & Spare] 0
+27 Aug 06:02:11 - [info] Stopping flows
+27 Aug 06:02:11 - [info] VUEUI:nodeGo:on-close
+27 Aug 06:02:11 - [info] VUEUI:nodeGo:on-close
+27 Aug 06:02:11 - [info] VUEUI:nodeGo:on-close
+27 Aug 06:02:11 - [info] [tcp in:Gripper Socket Server] stopped listening on port
+27 Aug 06:02:11 - [info] Stopped flows

@@ -1,0 +1,797 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link rel="apple-touch-icon" sizes="76x76" href="../assets/img/apple-icon.png" />
+    <link rel="icon" type="image/png" href="../assets/img/favicon.png" />
+    <title>大寰夹爪</title>
+    <!-- CSS Files -->
+    <link id="pagestyle" href="../assets/css/material-dashboard.css?v=3.0.0" rel="stylesheet" />
+    <link href="../assets/bubble/bubble-slider.css" rel="stylesheet" />
+    <style>
+        /* 初始化行 - 使用flex实现顶部底部对齐 */
+        .init-row {
+            display: flex;
+            align-items: stretch;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+
+        .init-btn-wrapper {
+            display: flex;
+            align-items: center;
+            flex-shrink: 0;
+        }
+
+        .init-btn-wrapper .btn {
+            height: 100%;
+            display: flex;
+            align-items: center;
+            padding: 10px 20px;
+        }
+
+        .fault-indicators-wrapper {
+            flex: 1;
+            display: flex;
+            align-items: stretch;
+            min-width: 350px;
+        }
+
+        .fault-indicators-container {
+            display: flex;
+            align-items: center;
+            width: 100%;
+            gap: 6px;
+            flex-wrap: nowrap;
+        }
+
+        .fault-title {
+            font-size: 13px;
+            font-weight: 600;
+            color: #333;
+            white-space: nowrap;
+            flex-shrink: 0;
+            display: flex;
+            align-items: center;
+            height: 100%;
+            margin-right: 4px;
+        }
+
+        .fault-indicators {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            flex: 1;
+            justify-content: flex-end;
+            flex-wrap: nowrap;
+        }
+
+        .fault-indicator-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+        }
+
+        .fault-indicator-item .led {
+            width: 18px;
+            height: 18px;
+            border-radius: 50%;
+            border: 1px solid #888;
+            transition: background-color 0.3s ease;
+            flex-shrink: 0;
+            margin-bottom: 6px;
+            /* 指示灯与描述间距 = 1/3指示灯高度 = 6px */
+        }
+
+        .fault-indicator-item .led.green {
+            background-color: #4caf50;
+            border-color: #388e3c;
+            box-shadow: 0 0 6px rgba(76, 175, 80, 0.5);
+        }
+
+        .fault-indicator-item .led.red {
+            background-color: #f44336;
+            border-color: #c62828;
+            box-shadow: 0 0 6px rgba(244, 67, 54, 0.5);
+        }
+
+        .fault-indicator-item .led-label {
+            font-size: 9px;
+            color: #555;
+            text-align: center;
+            line-height: 1.1;
+            white-space: nowrap;
+            flex-shrink: 0;
+            margin-top: 0;
+        }
+
+        /* 语言切换按钮样式 */
+        .language-switch-wrapper {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-left: auto;
+        }
+
+        .lang-btn {
+            padding: 4px 12px;
+            border-radius: 4px;
+            border: 1px solid #d2d6da;
+            background: transparent;
+            color: #6c757d;
+            font-size: 13px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .lang-btn:hover {
+            background: #e9ecef;
+        }
+
+        .lang-btn.active {
+            background: #17a2b8;
+            color: #fff;
+            border-color: #17a2b8;
+        }
+
+        .lang-btn.active:hover {
+            background: #138496;
+            border-color: #117a8b;
+        }
+
+        .tab-header-with-lang {
+            display: flex;
+            align-items: center;
+            width: 100%;
+        }
+
+        /* 响应式调整 */
+        @media (max-width: 768px) {
+            .fault-indicator-item .led {
+                width: 14px;
+                height: 14px;
+                margin-bottom: 5px;
+                /* 1/3指示灯高度 ≈ 4.67px，取整为5px */
+            }
+            .fault-indicator-item .led-label {
+                font-size: 7px;
+            }
+            .fault-indicators {
+                gap: 4px;
+            }
+            .fault-title {
+                font-size: 11px;
+                margin-right: 3px;
+            }
+            .fault-indicators-wrapper {
+                min-width: 200px;
+            }
+            .init-row {
+                gap: 8px;
+            }
+            .lang-btn {
+                font-size: 11px;
+                padding: 2px 8px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .fault-indicator-item .led {
+                width: 10px;
+                height: 10px;
+                margin-bottom: 3px;
+                /* 1/3指示灯高度 ≈ 3.33px，取整为3px */
+            }
+            .fault-indicator-item .led-label {
+                font-size: 6px;
+            }
+            .fault-indicators {
+                gap: 2px;
+            }
+            .fault-title {
+                font-size: 10px;
+                margin-right: 2px;
+            }
+            .lang-btn {
+                font-size: 10px;
+                padding: 2px 6px;
+            }
+        }
+    </style>
+</head>
+
+<body class="g-sidenav-show bg-gray-200" style="height: 90vh">
+
+    <div class="container-fluid px-2 px-md-4">
+        <!-- 背景图片 -->
+        <div class="page-header border-radius-xl mt-4" style="min-height: unset; aspect-ratio: 2046 / 491; background-image: url('../assets/img/background2.png'); background-size: cover; background-position: center center; background-repeat: no-repeat;">
+            <span class="mask bg-gradient-primary opacity-1"></span>
+        </div>
+        <div class="card card-body mx-3 mx-md-4 mt-n6">
+            <!-- 导航栏 - 增加语言切换按钮 -->
+            <div class="tab-header-with-lang">
+                <ul class="nav nav-tabs" id="myTab" role="tablist" style="flex: 1;">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home1" type="button" role="tab" aria-controls="home" aria-selected="true">
+                            <span id="controlTabLabel" data-i18n="control">控制</span>
+                        </button>
+                    </li>
+                </ul>
+                <!-- 语言切换按钮 -->
+                <div class="language-switch-wrapper">
+                    <button class="lang-btn active" id="langZhBtn" data-lang="zh-CN">中文</button>
+                    <button class="lang-btn" id="langEnBtn" data-lang="en-US">English</button>
+                </div>
+            </div>
+
+            <div class="tab-content" id="myTabContent">
+
+                <div class="tab-pane fade show active pt-3" id="home1" role="tabpanel" aria-labelledby="home-tab">
+                    <!-- 页面标签图片及文案 -->
+                    <div class="row gx-4 mb-2">
+                        <div class="col-auto">
+                            <div class="avatar avatar-xl position-relative">
+                                <img src="../assets/img/Robotiq.png" alt="profile_image" class="w-100 border-radius-lg shadow-sm" />
+                            </div>
+                        </div>
+                        <div class="col-auto my-auto">
+                            <div class="h-100">
+                                <h5 class="mb-1" id="seriesTitle" data-i18n="rg_series">2F 系列</h5>
+                                <p class="mb-0 font-weight-normal text-sm" id="seriesDescription" data-i18n="description">
+                                    该AddOn支持Robotiq 2F 系列自适应两指夹爪的TIO及控制柜Modbus RTU控制。
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <p class="mb-0 font-weight-normal text-sm">
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    </p>
+
+                    <!-- 初始化按钮 + 故障指示灯区域 -->
+                    <div class="init-row mb-3">
+                        <div class="init-btn-wrapper">
+                            <button class="btn bg-info" type="button" id="initGripper" style="color: #ffffff; background-color: #dde0eb; "><span id="initBtnLabel" data-i18n="gripper_init">夹爪初始化</span></button>
+                        </div>
+                        <div class="fault-indicators-wrapper">
+                            <div class="fault-indicators-container">
+                                <div class="fault-indicators" id="faultIndicators">
+                                    <!-- 4个Robotiq故障指示灯由JS动态生成 -->
+                                </div>
+                                <span class="fault-title" id="faultTitleLabel">    </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 位置设置 -->
+                    <div class="row pt-3">
+                        <div class="col-10 col-xl-10">
+                            <div class="card card-plain h-100">
+                                <div class="card-header pb-0 p-3">
+                                    <h6 class="mb-0" id="positionLabel" data-i18n="position">位置</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-2 col-xl-2">
+                            <div class="input-group input-group-outline my-3 is-filled" style="width: 50%; float: right">
+                                <label class="form-label" id="positionInputLabel" data-i18n="position">位置</label>
+                                <input type="text" id="pos_input" class="form-control" onfocus="focused(this)" onfocusout="defocused(this)" />
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-xl-12">
+                        <div class="input-group col-xs-12">
+                            <input id="pos-slider" name="pos-slider" placeholder="1-2550" type="number" min="1" max="255" />
+                        </div>
+                    </div>
+                    <!-- 力设置 -->
+                    <div class="row pt-3">
+                        <div class="col-10 col-xl-10">
+                            <div class="card card-plain h-100">
+                                <div class="card-header pb-0 p-3">
+                                    <h6 class="mb-0" id="forceLabel" data-i18n="force">力</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-2 col-xl-2">
+                            <div class="input-group input-group-outline my-3 is-filled" style="width: 50%; float: right">
+                                <label class="form-label" id="forceInputLabel" data-i18n="force">力</label>
+                                <input type="text" class="form-control" id="force_input" onfocus="focused(this)" onfocusout="defocused(this)" value="1" />
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-xl-12">
+                        <div class="input-group col-xs-12">
+                            <input id="force-slider" name="force-slider" placeholder="1-255" type="number" min="1" max="255" />
+                        </div>
+                    </div>
+                    <!-- 速度设置 -->
+                    <div class="row pt-3">
+                        <div class="col-10 col-xl-10">
+                            <div class="card card-plain h-100">
+                                <div class="card-header pb-0 p-3">
+                                    <h6 class="mb-0" id="speedLabel" data-i18n="speed">速度</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-2 col-xl-2">
+                            <div class="input-group input-group-outline my-3 is-filled" style="width: 50%; float: right">
+                                <label class="form-label" id="speedInputLabel" data-i18n="speed">速度</label>
+                                <input type="text" class="form-control" id="speed_input" onfocus="focused(this)" onfocusout="defocused(this)" />
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-xl-12 form-inline">
+                        <div class="input-group col-xs-12">
+                            <input id="speed-slider" name="speed-slider" placeholder="1-255" type="number" min="1" max="255" />
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <script src="../assets/js/material-dashboard.min.js?v=3.0.0"></script>
+    <script src="../assets/js/jquery.min.js" type="text/javascript"></script>
+    <script src="../assets/bubble/jquery.bubble-slider.js"></script>
+
+    <script>
+        $(document).ready(function() {
+            var ip = window.location.hostname;
+            var portal = ""
+            // 支持 App 传入的 locale：?locale=en_US、?locale=en-US、?locale=zh_CN、?locale=zh-CN
+            function normalizeLocale(locale) {
+                if (!locale) return null;
+                var normalized = String(locale).replace('_', '-').toLowerCase();
+                if (normalized === 'en-us' || normalized === 'en') return 'en-US';
+                if (normalized === 'zh-cn' || normalized === 'zh') return 'zh-CN';
+                return null;
+            }
+
+            function getLocaleFromUrl() {
+                var params = new URLSearchParams(window.location.search);
+                return normalizeLocale(params.get('locale'));
+            }
+
+            var urlLanguage = getLocaleFromUrl();
+            var currentLanguage = urlLanguage || 'zh-CN';
+            var translations = {};
+
+            // Robotiq Byte2 故障码定义；只处理 0x0A、0x0C、0x0D、0x0E
+            const FAULT_DEFS = [
+                { code: 0x0A, labelKey: 'fault_voltage', ledId: 'fault_led_0a' },
+                { code: 0x0C, labelKey: 'fault_internal', ledId: 'fault_led_0c' },
+                { code: 0x0D, labelKey: 'fault_activation', ledId: 'fault_led_0d' },
+                { code: 0x0E, labelKey: 'fault_overcurrent', ledId: 'fault_led_0e' }
+            ];
+
+            // 生成故障指示灯DOM
+            function renderFaultIndicators() {
+                const container = $('#faultIndicators');
+                container.empty();
+                FAULT_DEFS.forEach((def) => {
+                    const label = getTranslation(def.labelKey);
+                    const item = $(`
+                        <div class="fault-indicator-item" data-code="${def.code}">
+                            <div class="led green" id="${def.ledId}"></div>
+                            <span class="led-label">${label}</span>
+                        </div>
+                    `);
+                    container.append(item);
+                });
+            }
+
+            // 获取翻译文本
+            function getTranslation(key) {
+                if (translations[currentLanguage] && translations[currentLanguage][key]) {
+                    return translations[currentLanguage][key];
+                }
+                // 回退到中文
+                if (translations['zh-CN'] && translations['zh-CN'][key]) {
+                    return translations['zh-CN'][key];
+                }
+                return key;
+            }
+
+            // 更新所有界面文本
+            function updateUITexts() {
+                // 更新导航标签
+                $('#controlTabLabel').text(getTranslation('control'));
+                
+                // 更新系列标题和描述
+                $('#seriesTitle').text(getTranslation('rg_series'));
+                $('#seriesDescription').text(getTranslation('description'));
+                
+                // 更新初始化按钮
+                $('#initBtnLabel').text(getTranslation('gripper_init'));
+                
+                // 更新位置标签
+                $('#positionLabel').text(getTranslation('position'));
+                $('#positionInputLabel').text(getTranslation('position'));
+                
+                // 更新力标签
+                $('#forceLabel').text(getTranslation('force'));
+                $('#forceInputLabel').text(getTranslation('force'));
+                
+                // 更新速度标签
+                $('#speedLabel').text(getTranslation('speed'));
+                $('#speedInputLabel').text(getTranslation('speed'));
+                
+                // 更新故障指示灯标签
+                $('.fault-indicator-item').each(function() {
+                    const code = parseInt($(this).data('code'), 10);
+                    const def = FAULT_DEFS.find(d => d.code === code);
+                    if (def) {
+                        $(this).find('.led-label').text(getTranslation(def.labelKey));
+                    }
+                });
+
+                applyI18n();
+            }
+
+            // 加载语言文件
+            function loadLanguageFile() {
+                return new Promise((resolve, reject) => {
+                    $.ajax({
+                        url: 'set_language.json',
+                        type: 'GET',
+                        dataType: 'json',
+                        success: function(data) {
+                            translations = data.translations || {};
+                            applyRobotiqFaultTranslations();
+                            // App URL 参数优先，其次使用本地保存的语言。
+                            currentLanguage = urlLanguage || normalizeLocale(data.language) || 'zh-CN';
+                            resolve(data);
+                        },
+                        error: function() {
+                            // 如果文件不存在，使用默认配置
+                            console.log('语言文件不存在，使用默认配置');
+                            translations = {
+                                'zh-CN': {
+                                    'control': '控制',
+                                    'gripper_init': '夹爪初始化',
+                                    'position': '位置',
+                                    'force': '力',
+                                    'speed': '速度',
+                                    'fault_voltage': '最低工作电压不足',
+                                    'fault_internal': '内部故障',
+                                    'fault_activation': '激活故障',
+                                    'fault_overcurrent': '过流触发',
+                                    'rg_series': '2F 系列',
+                                    'description': '该AddOn支持Robotiq 2F 系列自适应两指夹爪的TIO及控制柜Modbus RTU控制'
+                                },
+                                'en-US': {
+                                    'control': 'Control',
+                                    'gripper_init': 'Gripper Init',
+                                    'position': 'Position',
+                                    'force': 'Force',
+                                    'speed': 'Speed',
+                                    'fault_voltage': 'Underminimum Operating Voltage',
+                                    'fault_internal': 'Internal Fault',
+                                    'fault_activation': 'Activation Fault',
+                                    'fault_overcurrent': 'Overcurrent Triggered',
+                                    'rg_series': '2F Series',
+                                    'description': 'This AddOn supports TIO and control cabinet Modbus RTU control for the Robotiq 2F series adaptive two-finger grippers..'
+                                }
+                            };
+                            currentLanguage = urlLanguage || 'zh-CN';
+                            resolve({ language: 'zh-CN', translations: translations });
+                        }
+                    });
+                });
+            }
+
+            // set_language.json 可能仍包含旧的 JODELL 故障名称；本页面统一使用 Robotiq 文案
+            function applyRobotiqFaultTranslations() {
+                translations['zh-CN'] = translations['zh-CN'] || {};
+                translations['en-US'] = translations['en-US'] || {};
+
+                Object.assign(translations['zh-CN'], {
+                    'rg_series': '2F 系列',
+                    'description': '该AddOn支持Robotiq 2F 系列自适应两指夹爪的TIO及控制柜Modbus RTU控制。',
+                    'fault_voltage': '最低工作电压不足',
+                    'fault_internal': '内部故障',
+                    'fault_activation': '激活故障',
+                    'fault_overcurrent': '过流触发'
+                });
+                Object.assign(translations['en-US'], {
+                    'rg_series': '2F Series',
+                    'description': 'This AddOn supports TIO and control cabinet Modbus RTU control for the Robotiq 2F series adaptive two-finger grippers.',
+                    'fault_voltage': 'Underminimum Operating Voltage',
+                    'fault_internal': 'Internal Fault',
+                    'fault_activation': 'Activation Fault',
+                    'fault_overcurrent': 'Overcurrent Triggered'
+                });
+            }
+
+            // 统一更新 HTML 中所有带有 data-i18n 的元素。
+            function applyI18n() {
+                var dict = translations[currentLanguage] || translations['zh-CN'] || {};
+                document.querySelectorAll('[data-i18n]').forEach(function(element) {
+                    var key = element.getAttribute('data-i18n');
+                    if (dict[key] !== undefined) {
+                        element.textContent = dict[key];
+                    }
+                });
+            }
+
+            // 保存语言设置到JSON文件
+            function saveLanguageSetting(lang) {
+                const data = {
+                    display: lang === 'zh-CN' ? '中文' : 'English',
+                    language: lang,
+                    translations: translations
+                };
+                $.ajax({
+                    url: 'set_language.json',
+                    type: 'POST',
+                    contentType: 'application/json',
+                    data: JSON.stringify(data),
+                    success: function() {
+                        console.log('语言设置已保存');
+                    },
+                    error: function() {
+                        console.log('无法保存语言设置');
+                    }
+                });
+            }
+
+            // 切换语言
+            function switchLanguage(lang) {
+                if (lang === currentLanguage) return;
+                currentLanguage = lang;
+                
+                // 更新按钮状态
+                $('.lang-btn').removeClass('active');
+                $(`.lang-btn[data-lang="${lang}"]`).addClass('active');
+                
+                // 更新界面文本
+                renderFaultIndicators();
+                updateUITexts();
+                
+                // 保存语言设置
+                saveLanguageSetting(lang);
+            }
+
+            // 初始化语言按钮事件
+            function initLanguageButtons() {
+                $('.lang-btn').click(function() {
+                    const lang = $(this).data('lang');
+                    switchLanguage(lang);
+                });
+            }
+
+            // 更新故障指示灯状态
+            function updateFaultIndicators(errorCode) {
+                // errorCode 为 0、0x0A、0x0C、0x0D 或 0x0E；其他值不做判断
+                const code = errorCode === null || errorCode === undefined
+                    ? 0
+                    : Number(errorCode);
+
+                FAULT_DEFS.forEach(def => {
+                    const led = $(`#${def.ledId}`);
+                    led.removeClass('red green');
+                    if (Number.isFinite(code) && code === def.code) {
+                        led.addClass('red');
+                    } else {
+                        led.addClass('green');
+                    }
+                });
+            }
+
+            // 加载语言文件并初始化页面
+            loadLanguageFile().then(() => {
+                // 初始化故障指示灯
+                renderFaultIndicators();
+                
+                // 更新界面文本
+                updateUITexts();
+                
+                // 设置当前语言按钮状态
+                $('.lang-btn').removeClass('active');
+                $(`.lang-btn[data-lang="${currentLanguage}"]`).addClass('active');
+                
+                // 初始化语言按钮事件
+                initLanguageButtons();
+                
+                // 继续执行原有初始化逻辑
+                getConfig().then((config) => {
+                    portal = config.portal
+                    console.log(`http://${ip}:${config.portal}/web/gripperStatus`);
+                    sendInitPageParametersRequest(config.portal);
+                });
+            });
+
+            //changeType 用来控制滑块初始化时不触发请求
+            var changeType = false;
+            var posInput = $("#pos_input"),
+                forceInput = $("#force_input"),
+                speedInput = $("#speed_input");
+
+            function debounce(func, wait) {
+                let timeout;
+                return function(...args) {
+                    clearTimeout(timeout);
+                    timeout = setTimeout(() => {
+                        func.apply(this, args);
+                    }, wait);
+                };
+            }
+
+            var forceSlider = $("#force-slider").bubbleSlider({
+                change: debounce(function(event, val) {
+                    forceInput.val(val);
+                }, 100) // 100 毫秒的防抖延迟
+            });
+
+            var speedSlider = $("#speed-slider").bubbleSlider({
+                change: debounce(function(event, val) {
+                    speedInput.val(val);
+                }, 100) // 100 毫秒的防抖延迟
+            });
+
+            var posSlider = $("#pos-slider").bubbleSlider({
+                change: debounce(function(event, val) {
+                    posInput.val(val);
+                    if (changeType) {
+                        sendPostRequest();
+                    } else {
+                        changeType = true
+                    }
+                }, 100) // 100 毫秒的防抖延迟
+            });
+
+
+            posInput.change(function() {
+                posSlider.setValue(posInput.val());
+                posSlider.positionThumb(posInput.val());
+            });
+            posInput.blur(function() {
+                sendPostRequest();
+            });
+
+
+            speedInput.change(function() {
+                speedSlider.setValue(speedInput.val());
+                speedSlider.positionThumb(speedInput.val());
+            });
+
+            forceInput.change(function() {
+                forceSlider.setValue(forceInput.val());
+                forceSlider.positionThumb(forceInput.val());
+            });
+
+            // 添加按钮点击事件处理程序
+            $("#initGripper").click(function() {
+                sendInitGripperRequest();
+            });
+
+
+        async function sendPostRequest() {
+                // 发送滑块值的 POST 请求
+                $.ajax({
+                    type: "POST",
+                    url: await getURL(portal,"web/control"), // 替换为你的后端接口地址
+                    data: {
+                        position: posInput.val(),
+                        force: forceInput.val(),
+                        speed: speedInput.val()
+                    },
+                    success: function(response) {
+                        // 请求成功的处理逻辑
+                        console.log(response);
+                    },
+                    error: function(error) {
+                        // 请求失败的处理逻辑
+                        console.error(error);
+                    }
+                });
+            }
+
+        async function sendInitGripperRequest() {
+                // 发送初始化夹爪的 POST 请求
+                $.ajax({
+                    type: "POST",
+                    url: await getURL(portal,"web/initGripper"), // 替换为初始化夹爪的后端接口地址
+                    data: {
+                        // 可以根据需要传递其他参数
+                    },
+                    success: function(response) {
+                        // 请求成功的处理逻辑
+                        console.log(response);
+                        // 初始化成功后，重新获取状态以更新指示灯
+                        sendInitPageParametersRequest(portal);
+                    },
+                    error: function(error) {
+                        // 请求失败的处理逻辑
+                        console.error(error);
+                    }
+                });
+            }
+
+        async function sendInitPageParametersRequest(portal) {
+                console.log(portal)
+                // 页面加载时初始化参数的请求
+                $.ajax({
+                    type: "POST",
+                    url: await getURL(portal,"/web/gripperStatus"), // 替换为初始化页面参数的后端接口地址
+                    success: function(response) {
+                        console.log(response, "hi");
+
+                        // 处理接收到的初始化参数
+                        // 更新页面上的元素，例如更新滑块、输入框等
+                        posInput.val(response.position);
+                        forceInput.val(response.force);
+                        speedInput.val(response.speed);
+
+                        // 更新滑块的值和位置
+                        posSlider.setValue(response.position);
+                        posSlider.positionThumb(response.position);
+
+                        forceSlider.setValue(response.force);
+                        forceSlider.positionThumb(response.force);
+
+                        speedSlider.setValue(response.speed);
+                        speedSlider.positionThumb(response.speed);
+
+                        // 解析故障状态字节并更新指示灯
+                        if (response.error !== undefined && response.error !== null) {
+                            updateFaultIndicators(response.error);
+                        } else {
+                            // 如果没有error字段，默认所有灯为绿色
+                            updateFaultIndicators(0);
+                        }
+
+                        // 请求成功的处理逻辑
+                        console.log(response, "hi");
+                    },
+                    error: function(error) {
+                        // 请求失败的处理逻辑
+                        console.error(error);
+                    }
+                });
+            }
+
+            async function getConfig() {
+                return new Promise((resolve, reject) => {
+                    $.get('../../Robotiq_Gripper_for_V3.ini', function(data) {
+                        var config = {};
+                        // 处理INI文件内容
+                        var lines = data.split('\n');
+                        for (var i = 0; i < lines.length; i++) {
+                            var line = lines[i].trim();
+                            if (line !== '' && line.indexOf('[') !== 0) {
+                                var parts = line.split('=');
+                                var key = parts[0].trim();
+                                var value = parts[1].trim();
+                                config[key] = value;
+                            }
+                        }
+                        // 现在config对象包含了INI文件中的键值对
+                        resolve(config);
+                    });
+                });
+            }
+
+			async function getURL(port, method){
+				if (window.location.protocol == "http:"){
+					return `http://${ window.location.host}:${port}/${method}`;
+				}else if (window.location.protocol == "https:"){
+					return `https://${ window.location.host}/addonApi/${port}/${method}`;
+				}
+			}									
+        });
+    </script>
+</body>
+
+</html>

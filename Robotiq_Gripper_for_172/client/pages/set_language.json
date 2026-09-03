@@ -1,0 +1,42 @@
+{
+  "display": "中文",
+  "language": "zh-CN",
+  "translations": {
+    "zh-CN": {
+      "control": "控制",
+      "gripper_init": "夹爪初始化",
+      "position": "位置",
+      "force": "力",
+      "speed": "速度",
+      "fault_indicators": "故障指示",
+      "fault_activation": "电爪激活故障",
+      "fault_command": "控制指令故障",
+      "fault_communication": "通讯故障",
+      "fault_overcurrent": "过流故障",
+      "fault_voltage": "电压异常故障",
+      "fault_enable": "使能故障",
+      "fault_overtemp": "过热故障",
+      "fault_product": "产品自身故障",
+      "rg_series": "RG 系列",
+      "description": "该AddOn支持JODELL RG系列夹爪的TIO及控制柜Modbus RTU控制。"
+    },
+    "en-US": {
+      "control": "Control",
+      "gripper_init": "Gripper Init",
+      "position": "Position",
+      "force": "Force",
+      "speed": "Speed",
+      "fault_indicators": "Fault Indicators",
+      "fault_activation": "Activation Fault",
+      "fault_command": "Command Fault",
+      "fault_communication": "Communication Fault",
+      "fault_overcurrent": "Overcurrent Fault",
+      "fault_voltage": "Voltage Fault",
+      "fault_enable": "Enable Fault",
+      "fault_overtemp": "Overheat Fault",
+      "fault_product": "Product Fault",
+      "rg_series": "RG Series",
+      "description": "This AddOn supports TIO and control cabinet Modbus RTU control of JODELL RG series grippers."
+    }
+  }
+}
