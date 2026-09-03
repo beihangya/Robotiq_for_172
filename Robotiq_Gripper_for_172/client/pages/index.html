@@ -764,7 +764,7 @@
 
             async function getConfig() {
                 return new Promise((resolve, reject) => {
-                    $.get('../../Robotiq_Gripper_for_V3.ini', function(data) {
+                    $.get('../../Robotiq_Gripper_for_172_config.ini', function(data) {
                         var config = {};
                         // 处理INI文件内容
                         var lines = data.split('\n');
